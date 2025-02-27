@@ -1,0 +1,17 @@
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\bin\Debug\net9.0\EpiApp.Services.deps.json
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\bin\Debug\net9.0\EpiApp.Services.dll
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\bin\Debug\net9.0\EpiApp.Services.pdb
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\bin\Debug\net9.0\EpiApp.Domain.dll
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\bin\Debug\net9.0\EpiApp.Repository.dll
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\bin\Debug\net9.0\EpiApp.Repository.pdb
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\bin\Debug\net9.0\EpiApp.Domain.pdb
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\obj\Debug\net9.0\EpiApp.Services.csproj.AssemblyReference.cache
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\obj\Debug\net9.0\EpiApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\obj\Debug\net9.0\EpiApp.Services.AssemblyInfoInputs.cache
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\obj\Debug\net9.0\EpiApp.Services.AssemblyInfo.cs
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\obj\Debug\net9.0\EpiApp.Services.csproj.CoreCompileInputs.cache
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\obj\Debug\net9.0\EpiApp.S.B07ADE81.Up2Date
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\obj\Debug\net9.0\EpiApp.Services.dll
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\obj\Debug\net9.0\refint\EpiApp.Services.dll
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\obj\Debug\net9.0\EpiApp.Services.pdb
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Services\obj\Debug\net9.0\ref\EpiApp.Services.dll

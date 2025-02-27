@@ -1,0 +1,5 @@
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Release\net9.0\EpiApp.Repository.csproj.AssemblyReference.cache
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Release\net9.0\EpiApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Release\net9.0\EpiApp.Repository.AssemblyInfoInputs.cache
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Release\net9.0\EpiApp.Repository.AssemblyInfo.cs
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Release\net9.0\EpiApp.Repository.csproj.CoreCompileInputs.cache

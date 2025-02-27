@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\cadastro\\epicadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\cadastro\\epicadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\cadastro\\setorcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\cadastro\\setorcadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|E:\\Cursos\\PROJETOS\\EpiAppLayers\\epiapp.app\\cadastro\\funcionariocadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\cadastro\\funcionariocadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|E:\\Cursos\\PROJETOS\\EpiAppLayers\\epiapp.app\\cadastro\\epicadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\cadastro\\epicadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\base\\basecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\base\\basecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\cadastro\\setorcadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\cadastro\\setorcadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\cadastro\\funcionariocadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\cadastro\\funcionariocadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\cadastro\\epicadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\cadastro\\epicadastro.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|E:\\Cursos\\PROJETOS\\EpiAppLayers\\epiapp.app\\base\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\base\\baseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|E:\\Cursos\\PROJETOS\\EpiAppLayers\\epiapp.app\\base\\baseconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\base\\baseconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 251,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SetorCadastro.cs [Projeto]",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\SetorCadastro.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Cadastro\\SetorCadastro.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\SetorCadastro.cs [Projeto]",
+              "RelativeToolTip": "EpiApp.App\\Cadastro\\SetorCadastro.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:43:25.634Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseCadastro.cs",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseCadastro.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Base\\BaseCadastro.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseCadastro.cs",
+              "RelativeToolTip": "EpiApp.App\\Base\\BaseCadastro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:10:47.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FuncionarioCadastro.Designer.cs",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\FuncionarioCadastro.Designer.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Cadastro\\FuncionarioCadastro.Designer.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\FuncionarioCadastro.Designer.cs",
+              "RelativeToolTip": "EpiApp.App\\Cadastro\\FuncionarioCadastro.Designer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:10:31.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EpiCadastro.cs",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\EpiCadastro.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Cadastro\\EpiCadastro.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\EpiCadastro.cs",
+              "RelativeToolTip": "EpiApp.App\\Cadastro\\EpiCadastro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:09:41.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EpiCadastro.cs [Projeto]",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\EpiCadastro.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Cadastro\\EpiCadastro.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\EpiCadastro.cs [Projeto]",
+              "RelativeToolTip": "EpiApp.App\\Cadastro\\EpiCadastro.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:09:36.369Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FuncionarioCadastro.cs [Projeto]",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\FuncionarioCadastro.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Cadastro\\FuncionarioCadastro.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\FuncionarioCadastro.cs [Projeto]",
+              "RelativeToolTip": "EpiApp.App\\Cadastro\\FuncionarioCadastro.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:09:26.58Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SetorCadastro.Designer.cs",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\SetorCadastro.Designer.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Cadastro\\SetorCadastro.Designer.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\SetorCadastro.Designer.cs",
+              "RelativeToolTip": "EpiApp.App\\Cadastro\\SetorCadastro.Designer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:10:32.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EpiCadastro.Designer.cs",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\EpiCadastro.Designer.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Cadastro\\EpiCadastro.Designer.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\EpiCadastro.Designer.cs",
+              "RelativeToolTip": "EpiApp.App\\Cadastro\\EpiCadastro.Designer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:10:33.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseForm.cs [Projeto]",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseForm.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Base\\BaseForm.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseForm.cs [Projeto]",
+              "RelativeToolTip": "EpiApp.App\\Base\\BaseForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:09:33.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BaseConsulta.cs [Projeto]",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseConsulta.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Base\\BaseConsulta.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseConsulta.cs [Projeto]",
+              "RelativeToolTip": "EpiApp.App\\Base\\BaseConsulta.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:09:31.029Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 251,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
