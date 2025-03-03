@@ -28,194 +28,152 @@
         /// </summary>
         private new void InitializeComponent()
         {
-            materialTextBoxEdit1 = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
-            materialTextBoxEdit2 = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
-            materialTextBoxEdit3 = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
-            materialTextBoxEdit4 = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
-            materialTextBoxEdit5 = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
+            materialTextBoxNome = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
+            materialTextBoxDocumento = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
+            poisonDateTimeDataNascimento = new ReaLTaiizor.Controls.PoisonDateTime();
+            checkBoxAtivo = new CheckBox();
+            materialTextBoxId = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
             SuspendLayout();
             // 
-            // materialTextBoxEdit1
+            // materialTextBoxNome
             // 
-            materialTextBoxEdit1.AnimateReadOnly = false;
-            materialTextBoxEdit1.AutoCompleteMode = AutoCompleteMode.None;
-            materialTextBoxEdit1.AutoCompleteSource = AutoCompleteSource.None;
-            materialTextBoxEdit1.BackgroundImageLayout = ImageLayout.None;
-            materialTextBoxEdit1.CharacterCasing = CharacterCasing.Normal;
-            materialTextBoxEdit1.Depth = 0;
-            materialTextBoxEdit1.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialTextBoxEdit1.HideSelection = true;
-            materialTextBoxEdit1.LeadingIcon = null;
-            materialTextBoxEdit1.Location = new Point(65, 86);
-            materialTextBoxEdit1.MaxLength = 32767;
-            materialTextBoxEdit1.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
-            materialTextBoxEdit1.Name = "materialTextBoxEdit1";
-            materialTextBoxEdit1.PasswordChar = '\0';
-            materialTextBoxEdit1.PrefixSuffixText = null;
-            materialTextBoxEdit1.ReadOnly = false;
-            materialTextBoxEdit1.RightToLeft = RightToLeft.No;
-            materialTextBoxEdit1.SelectedText = "";
-            materialTextBoxEdit1.SelectionLength = 0;
-            materialTextBoxEdit1.SelectionStart = 0;
-            materialTextBoxEdit1.ShortcutsEnabled = true;
-            materialTextBoxEdit1.Size = new Size(177, 48);
-            materialTextBoxEdit1.TabIndex = 6;
-            materialTextBoxEdit1.TabStop = false;
-            materialTextBoxEdit1.Text = "materialTextBoxEdit1";
-            materialTextBoxEdit1.TextAlign = HorizontalAlignment.Left;
-            materialTextBoxEdit1.TrailingIcon = null;
-            materialTextBoxEdit1.UseSystemPasswordChar = false;
+            materialTextBoxNome.AnimateReadOnly = false;
+            materialTextBoxNome.AutoCompleteMode = AutoCompleteMode.None;
+            materialTextBoxNome.AutoCompleteSource = AutoCompleteSource.None;
+            materialTextBoxNome.BackgroundImageLayout = ImageLayout.None;
+            materialTextBoxNome.CharacterCasing = CharacterCasing.Normal;
+            materialTextBoxNome.Depth = 0;
+            materialTextBoxNome.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialTextBoxNome.HideSelection = true;
+            materialTextBoxNome.LeadingIcon = null;
+            materialTextBoxNome.Location = new Point(65, 86);
+            materialTextBoxNome.MaxLength = 32767;
+            materialTextBoxNome.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
+            materialTextBoxNome.Name = "materialTextBoxNome";
+            materialTextBoxNome.PasswordChar = '\0';
+            materialTextBoxNome.PrefixSuffixText = null;
+            materialTextBoxNome.ReadOnly = false;
+            materialTextBoxNome.RightToLeft = RightToLeft.No;
+            materialTextBoxNome.SelectedText = "";
+            materialTextBoxNome.SelectionLength = 0;
+            materialTextBoxNome.SelectionStart = 0;
+            materialTextBoxNome.ShortcutsEnabled = true;
+            materialTextBoxNome.Size = new Size(177, 48);
+            materialTextBoxNome.TabIndex = 6;
+            materialTextBoxNome.TabStop = false;
+            materialTextBoxNome.Text = "Nome";
+            materialTextBoxNome.TextAlign = HorizontalAlignment.Left;
+            materialTextBoxNome.TrailingIcon = null;
+            materialTextBoxNome.UseSystemPasswordChar = false;
             // 
-            // materialTextBoxEdit2
+            // materialTextBoxDocumento
             // 
-            materialTextBoxEdit2.AnimateReadOnly = false;
-            materialTextBoxEdit2.AutoCompleteMode = AutoCompleteMode.None;
-            materialTextBoxEdit2.AutoCompleteSource = AutoCompleteSource.None;
-            materialTextBoxEdit2.BackgroundImageLayout = ImageLayout.None;
-            materialTextBoxEdit2.CharacterCasing = CharacterCasing.Normal;
-            materialTextBoxEdit2.Depth = 0;
-            materialTextBoxEdit2.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialTextBoxEdit2.HideSelection = true;
-            materialTextBoxEdit2.LeadingIcon = null;
-            materialTextBoxEdit2.Location = new Point(65, 166);
-            materialTextBoxEdit2.MaxLength = 32767;
-            materialTextBoxEdit2.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
-            materialTextBoxEdit2.Name = "materialTextBoxEdit2";
-            materialTextBoxEdit2.PasswordChar = '\0';
-            materialTextBoxEdit2.PrefixSuffixText = null;
-            materialTextBoxEdit2.ReadOnly = false;
-            materialTextBoxEdit2.RightToLeft = RightToLeft.No;
-            materialTextBoxEdit2.SelectedText = "";
-            materialTextBoxEdit2.SelectionLength = 0;
-            materialTextBoxEdit2.SelectionStart = 0;
-            materialTextBoxEdit2.ShortcutsEnabled = true;
-            materialTextBoxEdit2.Size = new Size(177, 48);
-            materialTextBoxEdit2.TabIndex = 7;
-            materialTextBoxEdit2.TabStop = false;
-            materialTextBoxEdit2.Text = "materialTextBoxEdit2";
-            materialTextBoxEdit2.TextAlign = HorizontalAlignment.Left;
-            materialTextBoxEdit2.TrailingIcon = null;
-            materialTextBoxEdit2.UseSystemPasswordChar = false;
+            materialTextBoxDocumento.AnimateReadOnly = false;
+            materialTextBoxDocumento.AutoCompleteMode = AutoCompleteMode.None;
+            materialTextBoxDocumento.AutoCompleteSource = AutoCompleteSource.None;
+            materialTextBoxDocumento.BackgroundImageLayout = ImageLayout.None;
+            materialTextBoxDocumento.CharacterCasing = CharacterCasing.Normal;
+            materialTextBoxDocumento.Depth = 0;
+            materialTextBoxDocumento.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialTextBoxDocumento.HideSelection = true;
+            materialTextBoxDocumento.LeadingIcon = null;
+            materialTextBoxDocumento.Location = new Point(65, 166);
+            materialTextBoxDocumento.MaxLength = 32767;
+            materialTextBoxDocumento.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
+            materialTextBoxDocumento.Name = "materialTextBoxDocumento";
+            materialTextBoxDocumento.PasswordChar = '\0';
+            materialTextBoxDocumento.PrefixSuffixText = null;
+            materialTextBoxDocumento.ReadOnly = false;
+            materialTextBoxDocumento.RightToLeft = RightToLeft.No;
+            materialTextBoxDocumento.SelectedText = "";
+            materialTextBoxDocumento.SelectionLength = 0;
+            materialTextBoxDocumento.SelectionStart = 0;
+            materialTextBoxDocumento.ShortcutsEnabled = true;
+            materialTextBoxDocumento.Size = new Size(177, 48);
+            materialTextBoxDocumento.TabIndex = 7;
+            materialTextBoxDocumento.TabStop = false;
+            materialTextBoxDocumento.Text = "Documento";
+            materialTextBoxDocumento.TextAlign = HorizontalAlignment.Left;
+            materialTextBoxDocumento.TrailingIcon = null;
+            materialTextBoxDocumento.UseSystemPasswordChar = false;
             // 
-            // materialTextBoxEdit3
+            // poisonDateTimeDataNascimento
             // 
-            materialTextBoxEdit3.AnimateReadOnly = false;
-            materialTextBoxEdit3.AutoCompleteMode = AutoCompleteMode.None;
-            materialTextBoxEdit3.AutoCompleteSource = AutoCompleteSource.None;
-            materialTextBoxEdit3.BackgroundImageLayout = ImageLayout.None;
-            materialTextBoxEdit3.CharacterCasing = CharacterCasing.Normal;
-            materialTextBoxEdit3.Depth = 0;
-            materialTextBoxEdit3.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialTextBoxEdit3.HideSelection = true;
-            materialTextBoxEdit3.LeadingIcon = null;
-            materialTextBoxEdit3.Location = new Point(65, 239);
-            materialTextBoxEdit3.MaxLength = 32767;
-            materialTextBoxEdit3.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
-            materialTextBoxEdit3.Name = "materialTextBoxEdit3";
-            materialTextBoxEdit3.PasswordChar = '\0';
-            materialTextBoxEdit3.PrefixSuffixText = null;
-            materialTextBoxEdit3.ReadOnly = false;
-            materialTextBoxEdit3.RightToLeft = RightToLeft.No;
-            materialTextBoxEdit3.SelectedText = "";
-            materialTextBoxEdit3.SelectionLength = 0;
-            materialTextBoxEdit3.SelectionStart = 0;
-            materialTextBoxEdit3.ShortcutsEnabled = true;
-            materialTextBoxEdit3.Size = new Size(177, 48);
-            materialTextBoxEdit3.TabIndex = 8;
-            materialTextBoxEdit3.TabStop = false;
-            materialTextBoxEdit3.Text = "materialTextBoxEdit3";
-            materialTextBoxEdit3.TextAlign = HorizontalAlignment.Left;
-            materialTextBoxEdit3.TrailingIcon = null;
-            materialTextBoxEdit3.UseSystemPasswordChar = false;
+            poisonDateTimeDataNascimento.AccessibleDescription = "";
+            poisonDateTimeDataNascimento.Location = new Point(65, 288);
+            poisonDateTimeDataNascimento.MinimumSize = new Size(0, 29);
+            poisonDateTimeDataNascimento.Name = "poisonDateTimeDataNascimento";
+            poisonDateTimeDataNascimento.Size = new Size(200, 29);
+            poisonDateTimeDataNascimento.TabIndex = 11;
             // 
-            // materialTextBoxEdit4
+            // checkBoxAtivo
             // 
-            materialTextBoxEdit4.AnimateReadOnly = false;
-            materialTextBoxEdit4.AutoCompleteMode = AutoCompleteMode.None;
-            materialTextBoxEdit4.AutoCompleteSource = AutoCompleteSource.None;
-            materialTextBoxEdit4.BackgroundImageLayout = ImageLayout.None;
-            materialTextBoxEdit4.CharacterCasing = CharacterCasing.Normal;
-            materialTextBoxEdit4.Depth = 0;
-            materialTextBoxEdit4.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialTextBoxEdit4.HideSelection = true;
-            materialTextBoxEdit4.LeadingIcon = null;
-            materialTextBoxEdit4.Location = new Point(320, 86);
-            materialTextBoxEdit4.MaxLength = 32767;
-            materialTextBoxEdit4.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
-            materialTextBoxEdit4.Name = "materialTextBoxEdit4";
-            materialTextBoxEdit4.PasswordChar = '\0';
-            materialTextBoxEdit4.PrefixSuffixText = null;
-            materialTextBoxEdit4.ReadOnly = false;
-            materialTextBoxEdit4.RightToLeft = RightToLeft.No;
-            materialTextBoxEdit4.SelectedText = "";
-            materialTextBoxEdit4.SelectionLength = 0;
-            materialTextBoxEdit4.SelectionStart = 0;
-            materialTextBoxEdit4.ShortcutsEnabled = true;
-            materialTextBoxEdit4.Size = new Size(177, 48);
-            materialTextBoxEdit4.TabIndex = 9;
-            materialTextBoxEdit4.TabStop = false;
-            materialTextBoxEdit4.Text = "materialTextBoxEdit4";
-            materialTextBoxEdit4.TextAlign = HorizontalAlignment.Left;
-            materialTextBoxEdit4.TrailingIcon = null;
-            materialTextBoxEdit4.UseSystemPasswordChar = false;
+            checkBoxAtivo.AutoSize = true;
+            checkBoxAtivo.Location = new Point(72, 241);
+            checkBoxAtivo.Name = "checkBoxAtivo";
+            checkBoxAtivo.Size = new Size(54, 19);
+            checkBoxAtivo.TabIndex = 12;
+            checkBoxAtivo.Text = "Ativo";
+            checkBoxAtivo.UseVisualStyleBackColor = true;
             // 
-            // materialTextBoxEdit5
+            // materialTextBoxId
             // 
-            materialTextBoxEdit5.AnimateReadOnly = false;
-            materialTextBoxEdit5.AutoCompleteMode = AutoCompleteMode.None;
-            materialTextBoxEdit5.AutoCompleteSource = AutoCompleteSource.None;
-            materialTextBoxEdit5.BackgroundImageLayout = ImageLayout.None;
-            materialTextBoxEdit5.CharacterCasing = CharacterCasing.Normal;
-            materialTextBoxEdit5.Depth = 0;
-            materialTextBoxEdit5.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            materialTextBoxEdit5.HideSelection = true;
-            materialTextBoxEdit5.LeadingIcon = null;
-            materialTextBoxEdit5.Location = new Point(320, 166);
-            materialTextBoxEdit5.MaxLength = 32767;
-            materialTextBoxEdit5.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
-            materialTextBoxEdit5.Name = "materialTextBoxEdit5";
-            materialTextBoxEdit5.PasswordChar = '\0';
-            materialTextBoxEdit5.PrefixSuffixText = null;
-            materialTextBoxEdit5.ReadOnly = false;
-            materialTextBoxEdit5.RightToLeft = RightToLeft.No;
-            materialTextBoxEdit5.SelectedText = "";
-            materialTextBoxEdit5.SelectionLength = 0;
-            materialTextBoxEdit5.SelectionStart = 0;
-            materialTextBoxEdit5.ShortcutsEnabled = true;
-            materialTextBoxEdit5.Size = new Size(177, 48);
-            materialTextBoxEdit5.TabIndex = 10;
-            materialTextBoxEdit5.TabStop = false;
-            materialTextBoxEdit5.Text = "materialTextBoxEdit5";
-            materialTextBoxEdit5.TextAlign = HorizontalAlignment.Left;
-            materialTextBoxEdit5.TrailingIcon = null;
-            materialTextBoxEdit5.UseSystemPasswordChar = false;
+            materialTextBoxId.AnimateReadOnly = false;
+            materialTextBoxId.AutoCompleteMode = AutoCompleteMode.None;
+            materialTextBoxId.AutoCompleteSource = AutoCompleteSource.None;
+            materialTextBoxId.BackgroundImageLayout = ImageLayout.None;
+            materialTextBoxId.CharacterCasing = CharacterCasing.Normal;
+            materialTextBoxId.Depth = 0;
+            materialTextBoxId.Font = new Font("Roboto", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialTextBoxId.HideSelection = true;
+            materialTextBoxId.LeadingIcon = null;
+            materialTextBoxId.Location = new Point(477, 86);
+            materialTextBoxId.MaxLength = 32767;
+            materialTextBoxId.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
+            materialTextBoxId.Name = "materialTextBoxId";
+            materialTextBoxId.PasswordChar = '\0';
+            materialTextBoxId.PrefixSuffixText = null;
+            materialTextBoxId.ReadOnly = false;
+            materialTextBoxId.RightToLeft = RightToLeft.No;
+            materialTextBoxId.SelectedText = "";
+            materialTextBoxId.SelectionLength = 0;
+            materialTextBoxId.SelectionStart = 0;
+            materialTextBoxId.ShortcutsEnabled = true;
+            materialTextBoxId.Size = new Size(250, 48);
+            materialTextBoxId.TabIndex = 13;
+            materialTextBoxId.TabStop = false;
+            materialTextBoxId.Text = "Id";
+            materialTextBoxId.TextAlign = HorizontalAlignment.Left;
+            materialTextBoxId.TrailingIcon = null;
+            materialTextBoxId.UseSystemPasswordChar = false;
             // 
             // FuncionarioCadastro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(materialTextBoxEdit5);
-            Controls.Add(materialTextBoxEdit4);
-            Controls.Add(materialTextBoxEdit3);
-            Controls.Add(materialTextBoxEdit2);
-            Controls.Add(materialTextBoxEdit1);
+            Controls.Add(materialTextBoxId);
+            Controls.Add(checkBoxAtivo);
+            Controls.Add(poisonDateTimeDataNascimento);
+            Controls.Add(materialTextBoxDocumento);
+            Controls.Add(materialTextBoxNome);
             Name = "FuncionarioCadastro";
             Text = "FuncionarioCadastro";
-            Controls.SetChildIndex(materialTextBoxEdit1, 0);
-            Controls.SetChildIndex(materialTextBoxEdit2, 0);
-            Controls.SetChildIndex(materialTextBoxEdit3, 0);
-            Controls.SetChildIndex(materialTextBoxEdit4, 0);
-            Controls.SetChildIndex(materialTextBoxEdit5, 0);
+            Controls.SetChildIndex(materialTextBoxNome, 0);
+            Controls.SetChildIndex(materialTextBoxDocumento, 0);
+            Controls.SetChildIndex(poisonDateTimeDataNascimento, 0);
+            Controls.SetChildIndex(checkBoxAtivo, 0);
+            Controls.SetChildIndex(materialTextBoxId, 0);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private ReaLTaiizor.Controls.MaterialTextBoxEdit materialTextBoxEdit1;
-        private ReaLTaiizor.Controls.MaterialTextBoxEdit materialTextBoxEdit2;
-        private ReaLTaiizor.Controls.MaterialTextBoxEdit materialTextBoxEdit3;
-        private ReaLTaiizor.Controls.MaterialTextBoxEdit materialTextBoxEdit4;
-        private ReaLTaiizor.Controls.MaterialTextBoxEdit materialTextBoxEdit5;
+        private ReaLTaiizor.Controls.MaterialTextBoxEdit materialTextBoxNome;
+        private ReaLTaiizor.Controls.MaterialTextBoxEdit materialTextBoxDocumento;
+        private ReaLTaiizor.Controls.PoisonDateTime poisonDateTimeDataNascimento;
+        private CheckBox checkBoxAtivo;
+        private ReaLTaiizor.Controls.MaterialTextBoxEdit materialTextBoxId;
     }
 }

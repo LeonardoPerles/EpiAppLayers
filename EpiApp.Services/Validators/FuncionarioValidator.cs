@@ -20,7 +20,7 @@ namespace EpiApp.Services.Validators
                 .NotNull().WithMessage("Por favor informe a data de nascimento do Funcionário.");
 
             RuleFor(c => c.Ativo)
-                .NotEmpty().WithMessage("Por favor informe a situação atual do Funcionário.")
+                //.NotEmpty().WithMessage("Por favor informe a situação atual do Funcionário.")
                 .NotNull().WithMessage("Por favor informe a situação atual do Funcionário.");
         }
     }

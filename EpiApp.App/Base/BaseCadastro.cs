@@ -1,4 +1,5 @@
 ﻿using ReaLTaiizor.Controls;
+using System.Diagnostics;
 
 namespace EpiApp.App.Base
 {
@@ -9,7 +10,6 @@ namespace EpiApp.App.Base
         {
             InitializeComponent();
         }
-
         public BaseCadastro()
         {
             InitializeComponent();
@@ -21,12 +21,12 @@ namespace EpiApp.App.Base
         {
             if (MessageBox.Show(@"Deseja realmente cancelar?", @"IFSP Store", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                LimpaCampos();                
+                LimpaCampos();
             }
         }
 
         private void btnSalvar_Click(object sender, EventArgs e)
-        {
+        {            
             Salvar();
         }
         #endregion
@@ -34,8 +34,9 @@ namespace EpiApp.App.Base
         #region Functions
         protected virtual void Salvar()
         {
-
-        }         
+            
+        }
         #endregion
+
     }
 }

@@ -8,10 +8,14 @@ namespace EpiApp.App.Base
         #region Construtor
         public BaseConsulta(string labelFormularioNome) : base(labelFormularioNome)
         {
-            InitializeComponent();            
+            InitializeComponent();
+        }
+        public BaseConsulta()
+        {
+            InitializeComponent();
         }
         #endregion
-        
+
         #region Events
         private void btnNovo_Click(object sender, EventArgs e)
         {
@@ -25,7 +29,20 @@ namespace EpiApp.App.Base
 
         private void btnRemover_Click(object sender, EventArgs e)
         {
-            Deletar(1);
+            if (dataGridViewConsulta.SelectedRows.Count > 0)
+            {
+                if (MessageBox.Show(@"Deseja realmente excluir?", @"Embal", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    // Possivelmente nulo?
+                    int id = (int)dataGridViewConsulta.SelectedRows[0].Cells["Id"].Value;                    
+                    Deletar(id);
+                    CarregaGrid();
+                }
+            }
+            else
+            {
+                MessageBox.Show(@"Selecione algum registro!", @"Embal", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
         #endregion
 

@@ -10,3 +10,4 @@ E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\EpiApp.Domain.dll
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\refint\EpiApp.Domain.dll
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\EpiApp.Domain.pdb
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\ref\EpiApp.Domain.dll
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\EpiApp.Domain.sourcelink.json

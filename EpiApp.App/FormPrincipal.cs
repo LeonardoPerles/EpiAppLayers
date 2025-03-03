@@ -18,7 +18,7 @@ namespace EpiApp.App.Base
         public FormPrincipal()
         {            
             InitializeComponent();
-            customiseDesign();            
+            customiseDesign();
         }
 
         #endregion

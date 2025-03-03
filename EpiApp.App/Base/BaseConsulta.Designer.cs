@@ -26,7 +26,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        private new void InitializeComponent()
         {
             dataGridViewConsulta = new DataGridView();
             labelBuscar = new Label();
@@ -111,7 +111,7 @@
 
         #endregion
 
-        private DataGridView dataGridViewConsulta;
+        protected DataGridView dataGridViewConsulta;
         private Label labelBuscar;
         private TextBox textBoxBusca;
         private Button btnNovo;

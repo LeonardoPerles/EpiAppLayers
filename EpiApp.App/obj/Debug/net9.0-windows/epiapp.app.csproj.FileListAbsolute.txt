@@ -76,3 +76,4 @@ E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.App\obj\Debug\net9.0-windows\refint\EpiAp
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.App\obj\Debug\net9.0-windows\EpiApp.App.pdb
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.App\obj\Debug\net9.0-windows\EpiApp.App.genruntimeconfig.cache
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.App\obj\Debug\net9.0-windows\ref\EpiApp.App.dll
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.App\obj\Debug\net9.0-windows\EpiApp.App.sourcelink.json

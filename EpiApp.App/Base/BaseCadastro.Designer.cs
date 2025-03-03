@@ -28,7 +28,7 @@
         /// 
         /// </summary>
         /// 
-        private void InitializeComponent()
+        private new void InitializeComponent()
         {
             btnCancelar = new Button();
             btnSalvar = new Button();
@@ -42,6 +42,7 @@
             btnCancelar.TabIndex = 4;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // btnSalvar
             // 
@@ -51,10 +52,11 @@
             btnSalvar.TabIndex = 5;
             btnSalvar.Text = "Salvar";
             btnSalvar.UseVisualStyleBackColor = true;
+            btnSalvar.Click += btnSalvar_Click;
             // 
             // BaseCadastro
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);            
+            AutoScaleDimensions = new SizeF(7F, 15F);
             ClientSize = new Size(800, 450);
             Controls.Add(btnSalvar);
             Controls.Add(btnCancelar);
@@ -62,10 +64,16 @@
             Controls.SetChildIndex(btnCancelar, 0);
             Controls.SetChildIndex(btnSalvar, 0);
             ResumeLayout(false);
+            PerformLayout();
+        }
+
+        private void BtnSalvar_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
         #endregion
 
         private Button btnCancelar;
-        private Button btnSalvar;
+        private Button btnSalvar;        
     }
 }

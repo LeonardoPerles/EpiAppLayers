@@ -26,7 +26,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        public void InitializeComponent(string nomeFormulario)
+        public void InitializeComponent()
         {
             panel1 = new Panel();
             labelEmpresa = new Label();
@@ -37,19 +37,19 @@
             // panel1
             // 
             panel1.BackColor = Color.Gray;
-            panel1.Controls.Add(labelEmpresa);
             panel1.Controls.Add(labelFormulario);
+            panel1.Controls.Add(labelEmpresa);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(800, 33);
+            panel1.Size = new Size(830, 34);
             panel1.TabIndex = 0;
             // 
             // labelEmpresa
             // 
             labelEmpresa.AutoSize = true;
             labelEmpresa.Font = new Font("Albertus Medium", 20.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            labelEmpresa.Location = new Point(44, 0);
+            labelEmpresa.Location = new Point(68, 0);
             labelEmpresa.Name = "labelEmpresa";
             labelEmpresa.Size = new Size(107, 33);
             labelEmpresa.TabIndex = 1;
@@ -59,18 +59,18 @@
             // 
             labelFormulario.AutoSize = true;
             labelFormulario.Font = new Font("Albertus Medium", 20.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            labelFormulario.Location = new Point(157, 0);
+            labelFormulario.Location = new Point(190, 0);
             labelFormulario.Name = "labelFormulario";
             labelFormulario.Size = new Size(149, 33);
             labelFormulario.TabIndex = 0;
-            labelFormulario.Text = nomeFormulario;            
+            labelFormulario.Text = "Formulario";
             // 
             // BaseForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Silver;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(830, 450);
             Controls.Add(panel1);
             Name = "BaseForm";
             Text = "BaseForm";

@@ -24,7 +24,6 @@ namespace EpiApp.Repository.Mapping
             builder.HasMany(prop => prop.Epis)
                 .WithOne(prop => prop.Funcionario)
                 .OnDelete(DeleteBehavior.Cascade);
-
         }
     }
 

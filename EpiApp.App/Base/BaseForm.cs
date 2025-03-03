@@ -9,14 +9,14 @@ namespace EpiApp.App.Base
         #endregion
 
         #region Constructor
-        public BaseForm()
-        {
-            InitializeComponent("Formulario");
-        }
-
         public BaseForm(string labelFormularioNome)
         {
-            InitializeComponent(labelFormularioNome);
+            InitializeComponent();
+            SetLabelFormularioText(labelFormularioNome);
+        }
+        public BaseForm()
+        {
+            InitializeComponent();
         }
         #endregion
 
@@ -35,6 +35,10 @@ namespace EpiApp.App.Base
                     ((MaterialMaskedTextBox)control).Clear();
                 }
             }
+        }
+        private void SetLabelFormularioText(string nomeFormulario)
+        {
+            labelFormulario.Text = nomeFormulario;
         }
         #endregion
     }

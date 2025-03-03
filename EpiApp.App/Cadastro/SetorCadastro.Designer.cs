@@ -28,42 +28,42 @@
         /// </summary>
         private new void InitializeComponent()
         {
-            textBoxNome = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
+            materialTextBoxNome = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
             labelNome = new ReaLTaiizor.Controls.BigLabel();
-            textBoxId = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
+            materialTextBoxId = new ReaLTaiizor.Controls.MaterialTextBoxEdit();
             labelId = new ReaLTaiizor.Controls.BigLabel();
             SuspendLayout();
             // 
-            // textBoxNome
+            // materialTextBoxNome
             // 
-            textBoxNome.AnimateReadOnly = false;
-            textBoxNome.AutoCompleteMode = AutoCompleteMode.None;
-            textBoxNome.AutoCompleteSource = AutoCompleteSource.None;
-            textBoxNome.BackgroundImageLayout = ImageLayout.None;
-            textBoxNome.CharacterCasing = CharacterCasing.Normal;
-            textBoxNome.Depth = 0;
-            textBoxNome.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            textBoxNome.HideSelection = true;
-            textBoxNome.LeadingIcon = null;
-            textBoxNome.Location = new Point(314, 148);
-            textBoxNome.MaxLength = 32767;
-            textBoxNome.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
-            textBoxNome.Name = "textBoxNome";
-            textBoxNome.PasswordChar = '\0';
-            textBoxNome.PrefixSuffixText = null;
-            textBoxNome.ReadOnly = false;
-            textBoxNome.RightToLeft = RightToLeft.No;
-            textBoxNome.SelectedText = "";
-            textBoxNome.SelectionLength = 0;
-            textBoxNome.SelectionStart = 0;
-            textBoxNome.ShortcutsEnabled = true;
-            textBoxNome.Size = new Size(250, 48);
-            textBoxNome.TabIndex = 6;
-            textBoxNome.TabStop = false;
-            textBoxNome.Text = "Nome";
-            textBoxNome.TextAlign = HorizontalAlignment.Left;
-            textBoxNome.TrailingIcon = null;
-            textBoxNome.UseSystemPasswordChar = false;
+            materialTextBoxNome.AnimateReadOnly = false;
+            materialTextBoxNome.AutoCompleteMode = AutoCompleteMode.None;
+            materialTextBoxNome.AutoCompleteSource = AutoCompleteSource.None;
+            materialTextBoxNome.BackgroundImageLayout = ImageLayout.None;
+            materialTextBoxNome.CharacterCasing = CharacterCasing.Normal;
+            materialTextBoxNome.Depth = 0;
+            materialTextBoxNome.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialTextBoxNome.HideSelection = true;
+            materialTextBoxNome.LeadingIcon = null;
+            materialTextBoxNome.Location = new Point(314, 148);
+            materialTextBoxNome.MaxLength = 32767;
+            materialTextBoxNome.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
+            materialTextBoxNome.Name = "materialTextBoxNome";
+            materialTextBoxNome.PasswordChar = '\0';
+            materialTextBoxNome.PrefixSuffixText = null;
+            materialTextBoxNome.ReadOnly = false;
+            materialTextBoxNome.RightToLeft = RightToLeft.No;
+            materialTextBoxNome.SelectedText = "";
+            materialTextBoxNome.SelectionLength = 0;
+            materialTextBoxNome.SelectionStart = 0;
+            materialTextBoxNome.ShortcutsEnabled = true;
+            materialTextBoxNome.Size = new Size(250, 48);
+            materialTextBoxNome.TabIndex = 6;
+            materialTextBoxNome.TabStop = false;
+            materialTextBoxNome.Text = "Nome";
+            materialTextBoxNome.TextAlign = HorizontalAlignment.Left;
+            materialTextBoxNome.TrailingIcon = null;
+            materialTextBoxNome.UseSystemPasswordChar = false;
             // 
             // labelNome
             // 
@@ -77,36 +77,36 @@
             labelNome.TabIndex = 7;
             labelNome.Text = "Nome";
             // 
-            // textBoxId
+            // materialTextBoxId
             // 
-            textBoxId.AnimateReadOnly = false;
-            textBoxId.AutoCompleteMode = AutoCompleteMode.None;
-            textBoxId.AutoCompleteSource = AutoCompleteSource.None;
-            textBoxId.BackgroundImageLayout = ImageLayout.None;
-            textBoxId.CharacterCasing = CharacterCasing.Normal;
-            textBoxId.Depth = 0;
-            textBoxId.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            textBoxId.HideSelection = true;
-            textBoxId.LeadingIcon = null;
-            textBoxId.Location = new Point(28, 148);
-            textBoxId.MaxLength = 32767;
-            textBoxId.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
-            textBoxId.Name = "textBoxId";
-            textBoxId.PasswordChar = '\0';
-            textBoxId.PrefixSuffixText = null;
-            textBoxId.ReadOnly = false;
-            textBoxId.RightToLeft = RightToLeft.No;
-            textBoxId.SelectedText = "";
-            textBoxId.SelectionLength = 0;
-            textBoxId.SelectionStart = 0;
-            textBoxId.ShortcutsEnabled = true;
-            textBoxId.Size = new Size(250, 48);
-            textBoxId.TabIndex = 8;
-            textBoxId.TabStop = false;
-            textBoxId.Text = "Id";
-            textBoxId.TextAlign = HorizontalAlignment.Left;
-            textBoxId.TrailingIcon = null;
-            textBoxId.UseSystemPasswordChar = false;
+            materialTextBoxId.AnimateReadOnly = false;
+            materialTextBoxId.AutoCompleteMode = AutoCompleteMode.None;
+            materialTextBoxId.AutoCompleteSource = AutoCompleteSource.None;
+            materialTextBoxId.BackgroundImageLayout = ImageLayout.None;
+            materialTextBoxId.CharacterCasing = CharacterCasing.Normal;
+            materialTextBoxId.Depth = 0;
+            materialTextBoxId.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
+            materialTextBoxId.HideSelection = true;
+            materialTextBoxId.LeadingIcon = null;
+            materialTextBoxId.Location = new Point(28, 148);
+            materialTextBoxId.MaxLength = 32767;
+            materialTextBoxId.MouseState = ReaLTaiizor.Helper.MaterialDrawHelper.MaterialMouseState.OUT;
+            materialTextBoxId.Name = "materialTextBoxId";
+            materialTextBoxId.PasswordChar = '\0';
+            materialTextBoxId.PrefixSuffixText = null;
+            materialTextBoxId.ReadOnly = false;
+            materialTextBoxId.RightToLeft = RightToLeft.No;
+            materialTextBoxId.SelectedText = "";
+            materialTextBoxId.SelectionLength = 0;
+            materialTextBoxId.SelectionStart = 0;
+            materialTextBoxId.ShortcutsEnabled = true;
+            materialTextBoxId.Size = new Size(250, 48);
+            materialTextBoxId.TabIndex = 8;
+            materialTextBoxId.TabStop = false;
+            materialTextBoxId.Text = "Id";
+            materialTextBoxId.TextAlign = HorizontalAlignment.Left;
+            materialTextBoxId.TrailingIcon = null;
+            materialTextBoxId.UseSystemPasswordChar = false;
             // 
             // labelId
             // 
@@ -126,14 +126,14 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(labelId);
-            Controls.Add(textBoxId);
+            Controls.Add(materialTextBoxId);
             Controls.Add(labelNome);
-            Controls.Add(textBoxNome);
+            Controls.Add(materialTextBoxNome);
             Name = "SetorCadastro";
             Text = "SetorCadastro";
-            Controls.SetChildIndex(textBoxNome, 0);
+            Controls.SetChildIndex(materialTextBoxNome, 0);
             Controls.SetChildIndex(labelNome, 0);
-            Controls.SetChildIndex(textBoxId, 0);
+            Controls.SetChildIndex(materialTextBoxId, 0);
             Controls.SetChildIndex(labelId, 0);
             ResumeLayout(false);
             PerformLayout();
@@ -141,9 +141,9 @@
 
         #endregion
 
-        private ReaLTaiizor.Controls.MaterialTextBoxEdit textBoxNome;
+        private ReaLTaiizor.Controls.MaterialTextBoxEdit materialTextBoxNome;
         private ReaLTaiizor.Controls.BigLabel labelNome;
-        private ReaLTaiizor.Controls.MaterialTextBoxEdit textBoxId;
+        private ReaLTaiizor.Controls.MaterialTextBoxEdit materialTextBoxId;
         private ReaLTaiizor.Controls.BigLabel labelId;
     }
 }

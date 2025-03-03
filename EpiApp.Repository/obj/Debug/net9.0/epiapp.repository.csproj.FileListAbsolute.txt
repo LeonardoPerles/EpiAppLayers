@@ -15,3 +15,4 @@ E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\refint\EpiApp
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\EpiApp.Repository.pdb
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\EpiApp.Repository.genruntimeconfig.cache
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\ref\EpiApp.Repository.dll
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\EpiApp.Repository.sourcelink.json
