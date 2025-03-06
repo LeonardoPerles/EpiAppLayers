@@ -1,4 +1,5 @@
 ﻿using EpiApp.App.Base;
+using EpiApp.App.Models;
 using EpiApp.Domain.Base;
 using EpiApp.Domain.Entities;
 using EpiApp.Services.Validators;
@@ -6,7 +7,7 @@ using System.Diagnostics;
 
 namespace EpiApp.App.Cadastro
 {
-    public partial class SetorCadastro : BaseCadastro
+    public partial class SetorCadastro : BaseCadastro<Setor, SetorModel, SetorValidator>
     {
         #region Dependências/Serviços
         private IBaseService<Setor> _setorService;

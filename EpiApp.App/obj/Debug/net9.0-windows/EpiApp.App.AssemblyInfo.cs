@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EpiApp.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7b28f23bb5ef63b207ba86dae772996dd914fc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b24a77eb432f4bb2aa8d33be21dc16ee49c4b60")]
 [assembly: System.Reflection.AssemblyProductAttribute("EpiApp.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EpiApp.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

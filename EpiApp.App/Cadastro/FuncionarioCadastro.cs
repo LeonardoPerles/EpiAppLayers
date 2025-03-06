@@ -1,4 +1,5 @@
 ﻿using EpiApp.App.Base;
+using EpiApp.App.Models;
 using EpiApp.Domain.Base;
 using EpiApp.Domain.Entities;
 using EpiApp.Services.Validators;
@@ -15,7 +16,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace EpiApp.App.Cadastro
 {
-    public partial class FuncionarioCadastro : BaseCadastro
+    public partial class FuncionarioCadastro : BaseCadastro<Funcionario, FuncionarioModel, FuncionarioValidator>
     {
         #region Dependencias
         IBaseService<Funcionario> _funcionarioService;

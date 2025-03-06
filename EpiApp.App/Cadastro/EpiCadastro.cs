@@ -1,11 +1,12 @@
 ﻿using EpiApp.App.Base;
+using EpiApp.App.Models;
 using EpiApp.Domain.Base;
 using EpiApp.Domain.Entities;
 using EpiApp.Services.Validators;
 
 namespace EpiApp.App.Cadastro
 {
-    public partial class EpiCadastro : BaseCadastro
+    public partial class EpiCadastro : BaseCadastro<Epi, EpiModel, EpiValidator>
     {
         #region Dependências
         private IBaseService<Epi> _epiService;

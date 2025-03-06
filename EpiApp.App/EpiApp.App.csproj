@@ -26,12 +26,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Base\BaseConsulta - Cópia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="Config\ConfigBanco.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

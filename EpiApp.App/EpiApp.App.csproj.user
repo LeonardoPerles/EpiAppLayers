@@ -4,7 +4,13 @@
     <Compile Update="Base\BaseCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Base\BaseCadastroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Base\BaseConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Base\BaseConsultaForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Base\BaseForm.cs">
