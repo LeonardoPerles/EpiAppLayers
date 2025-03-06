@@ -9,10 +9,10 @@ E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\EpiApp.Reposi
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\EpiApp.Repository.AssemblyInfoInputs.cache
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\EpiApp.Repository.AssemblyInfo.cs
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\EpiApp.Repository.csproj.CoreCompileInputs.cache
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\EpiApp.Repository.sourcelink.json
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\EpiApp.R.74B9A92D.Up2Date
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\EpiApp.Repository.dll
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\refint\EpiApp.Repository.dll
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\EpiApp.Repository.pdb
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\EpiApp.Repository.genruntimeconfig.cache
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\ref\EpiApp.Repository.dll
-E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Repository\obj\Debug\net9.0\EpiApp.Repository.sourcelink.json

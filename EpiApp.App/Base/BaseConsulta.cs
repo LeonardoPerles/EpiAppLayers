@@ -1,10 +1,14 @@
-﻿using ReaLTaiizor.Controls;
+﻿using EpiApp.App.Infra;
+using EpiApp.Domain.Base;
+using EpiApp.Domain.Entities;
+using Microsoft.Extensions.DependencyInjection;
+using ReaLTaiizor.Controls;
 
 namespace EpiApp.App.Base
 {
     public partial class BaseConsulta : BaseForm
     {
-        
+
         #region Construtor
         public BaseConsulta(string labelFormularioNome) : base(labelFormularioNome)
         {
@@ -18,7 +22,7 @@ namespace EpiApp.App.Base
 
         #region Events
         private void btnNovo_Click(object sender, EventArgs e)
-        {
+        {            
             Novo();
         }
 

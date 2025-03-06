@@ -16,7 +16,7 @@ namespace EpiApp.App.Base
         }
         public BaseForm()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
         #endregion
 

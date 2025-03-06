@@ -10,6 +10,7 @@ using EpiApp.App.Consulta;
 using EpiApp.Domain.Base;
 using EpiApp.Services.Services;
 using EpiApp.Repository.Repository;
+using EpiApp.App.Base;
 
 namespace EpiApp.App.Infra
 {
@@ -65,6 +66,7 @@ namespace EpiApp.App.Infra
             #endregion
 
             #region Forms
+            Services.AddSingleton<FormPrincipal, FormPrincipal>();
             Services.AddTransient<SetorCadastro, SetorCadastro>();
             Services.AddTransient<SetorConsulta, SetorConsulta>();
             Services.AddTransient<FuncionarioCadastro, FuncionarioCadastro>();

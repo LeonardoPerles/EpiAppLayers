@@ -1,1 +1,0 @@
-Data Source=DESKTOP-QVS6TI7\SQLEXPRESS;Initial Catalog=layers_epi_database;Integrated Security=True;Pooling=False;Encrypt=False;Trust Server Certificate=True

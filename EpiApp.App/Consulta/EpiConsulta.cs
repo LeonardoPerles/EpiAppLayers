@@ -33,6 +33,7 @@ namespace EpiApp.App.Consulta
         }
         protected override void Novo()
         {
+
         }
         protected override void Editar()
         {

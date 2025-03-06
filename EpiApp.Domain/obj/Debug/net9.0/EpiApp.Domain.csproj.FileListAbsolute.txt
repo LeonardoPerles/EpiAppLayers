@@ -6,8 +6,8 @@ E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\EpiApp.Domain.Gen
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\EpiApp.Domain.AssemblyInfoInputs.cache
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\EpiApp.Domain.AssemblyInfo.cs
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\EpiApp.Domain.csproj.CoreCompileInputs.cache
+E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\EpiApp.Domain.sourcelink.json
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\EpiApp.Domain.dll
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\refint\EpiApp.Domain.dll
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\EpiApp.Domain.pdb
 E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\ref\EpiApp.Domain.dll
-E:\Cursos\PROJETOS\EpiAppLayers\EpiApp.Domain\obj\Debug\net9.0\EpiApp.Domain.sourcelink.json
