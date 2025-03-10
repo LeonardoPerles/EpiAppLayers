@@ -6,7 +6,7 @@ using Microsoft.Extensions.Options;
 namespace EpiApp.Services.Services
 {
     public class BaseService<TEntity> : IBaseService<TEntity>
-        where TEntity : BaseEntity<int>
+        where TEntity : IBaseEntity
     {
         private readonly IBaseRepository<TEntity> _baseRepository;
         private readonly IMapper _mapper;

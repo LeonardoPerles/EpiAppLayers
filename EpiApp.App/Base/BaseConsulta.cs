@@ -1,5 +1,8 @@
-﻿using EpiApp.Domain.Base;
+﻿using EpiApp.App.Cadastro;
+using EpiApp.App.Infra;
+using EpiApp.Domain.Base;
 using FluentValidation;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,18 +21,22 @@ namespace EpiApp.App.Base
         where TValidator : AbstractValidator<TEntity>
     {
         #region Dependências      
-        private readonly IBaseService<TEntity> _service;
-        private List<TEntity>? entities;
+        protected readonly IBaseService<TEntity> _service;
+        //protected readonly BaseCadastro<TEntity> _service;
+        protected readonly FormPrincipal _principal;
+        protected List<TEntity>? entities;
         #endregion
 
         #region Construtor
         public BaseConsulta(IBaseService<TEntity> service, string labelFormularioNome) : base(labelFormularioNome)
         {
+            _principal = ConfigureDI.ServicesProvider!.GetRequiredService<FormPrincipal>();
             _service = service;
             InitializeComponent();
         }
         public BaseConsulta(IBaseService<TEntity> service)
         {
+            _principal = ConfigureDI.ServicesProvider!.GetRequiredService<FormPrincipal>();
             _service = service;
             InitializeComponent();
         }
@@ -37,21 +44,23 @@ namespace EpiApp.App.Base
 
         #region Metodos Sobrepostos
         protected override void Novo()
-        {
+        {        
             LimpaCampos();
         }
 
-        protected override void Editar()
+        protected override bool Editar()
         {
             if (dataGridViewConsulta.SelectedRows.Count > 0)
             {
                 IsAlteracao = true;
                 var linha = dataGridViewConsulta.SelectedRows[0];
                 CarregaRegistro(linha);
+                return true;
             }
             else
             {
                 MessageBox.Show(@"Selecione algum registro!", @"IFSP Store", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
             }
         }
 
@@ -64,31 +73,40 @@ namespace EpiApp.App.Base
                     // Possivelmente nulo?
                     int id = (int)dataGridViewConsulta.SelectedRows[0].Cells["Id"].Value;
                     Deletar(id);
-                    CarregaGrid();
+                    CarregaGrid();                    
                 }
             }
             else
             {
                 MessageBox.Show(@"Selecione algum registro!", @"Embal", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }                
+        }
+        protected private void Deletar(int id)
+        {
+            try
+            {
+                _service.Delete(id);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, @"IFSP Store", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-#endregion
-
-        #region CRUD
+        #endregion
+        
+        #region Metodos Virtuais
         protected virtual void CarregaGrid()
         {
-            entities = _service.ListAll<TEntity>(false).ToList();
-            dataGridViewConsulta.DataSource = entities;
-            ConfiguraGrid();
+            //entities = _service.ListAll<TEntity>(false).ToList();
+            //dataGridViewConsulta.DataSource = entities;
+            //ConfiguraGrid();
         }
-        protected virtual void ConfiguraGrid()
-        {
-        }
+        //protected virtual void ConfiguraGrid()
+        //{
+        //}
         protected virtual void CarregaRegistro(DataGridViewRow? linha)
-        {
-        }
-        protected virtual void Deletar(int id)
-        {
+        {            
+
         }
         #endregion
     }

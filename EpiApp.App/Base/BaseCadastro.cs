@@ -20,11 +20,12 @@ namespace EpiApp.App.Base
         #region Constructor
         public BaseCadastro(string labelFormularioNome) : base(labelFormularioNome)
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
         public BaseCadastro()
         {
             InitializeComponent();
+            LimpaCampos();
         }
         #endregion
 
@@ -36,10 +37,14 @@ namespace EpiApp.App.Base
                 LimpaCampos();
             }
         }
-
         protected override void Salvar()
         {
 
+        }
+
+        public virtual void CarregaCampos(DataGridViewRow? linha)
+        {
+            
         }
         #endregion
     }

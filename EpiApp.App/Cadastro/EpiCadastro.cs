@@ -17,6 +17,7 @@ namespace EpiApp.App.Cadastro
         {
             _epiService = epiService;
             InitializeComponent();
+            LimpaCampos();
         }
         #endregion
 
@@ -58,6 +59,23 @@ namespace EpiApp.App.Cadastro
             epi.PrazoTroca = Int32.Parse(materialTextBoxPrazoTroca.Text);
             epi.Ca = materialTextBoxCa.Text;
             epi.ValidadeCa = poisonDateTimeValidadeCa.Value;
+        }
+
+        public override void CarregaCampos(DataGridViewRow? linha)
+        {
+            if (linha != null)
+            {
+                materialTextBoxId.Text = "100";
+                materialTextBoxNome.Text = linha?.Cells["Nome"].Value!.ToString() ?? string.Empty;
+                materialTextBoxCa.Text = linha?.Cells["Ca"].Value!.ToString() ?? string.Empty;
+                poisonDateTimeValidadeCa.Text = linha?.Cells["ValidadeCa"].Value!.ToString() ?? string.Empty;
+                materialTextBoxPrazoTroca.Text = linha?.Cells["PrazoTroca"].Value!.ToString() ?? string.Empty;
+            }
+            else
+            {
+                // Aqui você pode exibir uma mensagem de erro, se necessário
+                MessageBox.Show("Linha não encontrada.");
+            }
         }
         #endregion
     }

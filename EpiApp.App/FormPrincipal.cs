@@ -51,11 +51,21 @@ namespace EpiApp.App.Base
             }
         }
 
-        private void openChildForm<TFormulario>() where TFormulario : Form 
+        public void openChildForm<TFormulario>(TFormulario childForm) where TFormulario : Form
+        {
+            OpenFormInPanel(childForm);
+        }
+
+        public void openChildForm<TFormulario>() where TFormulario : Form 
         {               
-            var childForm = ConfigureDI.ServicesProvider!.GetService<TFormulario>();                       
+            var childForm = ConfigureDI.ServicesProvider!.GetService<TFormulario>();
+            OpenFormInPanel(childForm!);
+        }
+
+        private void OpenFormInPanel(Form childForm)
+        {
             if (childForm != null && !childForm.IsDisposed)
-            {                
+            {
                 if (activeForm != childForm)
                 {
                     if (activeForm != null)
@@ -70,7 +80,7 @@ namespace EpiApp.App.Base
                     panelChildForm.Tag = childForm;
                     childForm.BringToFront();
                     childForm.Show();
-                }                
+                }
             }
         }
         #endregion

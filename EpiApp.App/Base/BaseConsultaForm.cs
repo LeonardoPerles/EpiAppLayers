@@ -42,12 +42,13 @@ namespace EpiApp.App.Base
         {
         }
 
-        protected virtual void Editar()
-        {
+        protected virtual bool Editar()
+        {            
+            return false;
         }
 
         protected virtual void Remover()
-        {
+        {            
         }
         #endregion
 

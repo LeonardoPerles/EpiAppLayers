@@ -17,14 +17,15 @@ namespace EpiApp.App.Consulta
         #endregion
 
         #region Funções Sobrepostas
-        protected override void ConfiguraGrid()
+        protected override void CarregaGrid()
         {
+            entities = _service.ListAll<Funcionario>(false).ToList();
+            dataGridViewConsulta.DataSource = entities;
             dataGridViewConsulta.Columns["Nome"]!.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
         }
-
         protected override void CarregaRegistro(DataGridViewRow? linha)
-        {     
-            
+        {
+            // ....
         }
         #endregion
     }
