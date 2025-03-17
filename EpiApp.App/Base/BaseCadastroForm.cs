@@ -40,7 +40,7 @@ namespace EpiApp.App.Base
         protected virtual void Salvar()
         {
             
-        }        
+        }
         #endregion
 
     }

@@ -1,5 +1,12 @@
-﻿namespace EpiApp.App.Base
-{
+﻿using EpiApp.App.Models;
+using EpiApp.Domain.Base;
+using EpiApp.Domain.Entities;
+using EpiApp.Services.Validators;
+using FluentValidation;
+using System.ComponentModel;
+
+namespace EpiApp.App.Base
+{    
     partial class BaseCadastro<TEntity, TModel, TValidator>
     {
         /// <summary>
@@ -27,13 +34,12 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private new void InitializeComponent()
-        {
+        {            
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Text = "BaseCadastro";
         }
-
         #endregion
     }
 }

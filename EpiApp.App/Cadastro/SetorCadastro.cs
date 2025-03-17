@@ -1,8 +1,9 @@
-﻿using EpiApp.App.Base;
+﻿    using EpiApp.App.Base;
 using EpiApp.App.Models;
 using EpiApp.Domain.Base;
 using EpiApp.Domain.Entities;
 using EpiApp.Services.Validators;
+using ReaLTaiizor.Controls;
 using System.Diagnostics;
 
 namespace EpiApp.App.Cadastro
@@ -19,9 +20,21 @@ namespace EpiApp.App.Cadastro
             _setorService = setorService;
             InitializeComponent();
         }
+
+        public SetorCadastro(IBaseService<Setor> setorService, SetorModel setorModel) : base("Setor Cadastro")
+        {
+            _setorService = setorService;
+            InitializeComponent();
+            CarregaCampos(setorModel);
+        }
         #endregion
 
         #region Metodos sobrepostos
+        protected override void CarregaCampos(SetorModel setorModel)
+        {
+            materialTextBoxId.Text = setorModel.Id.ToString();
+            materialTextBoxNome.Text = setorModel.Nome;
+        }
         protected override void Salvar()
         {            
             try

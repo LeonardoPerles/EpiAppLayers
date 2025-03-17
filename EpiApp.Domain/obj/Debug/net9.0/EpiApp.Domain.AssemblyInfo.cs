@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EpiApp.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89cf7a59ad364890c815b3669f503e68d092edf5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66a4aa6d8c5585d477fd2a45602cfb325b6b9235")]
 [assembly: System.Reflection.AssemblyProductAttribute("EpiApp.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EpiApp.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

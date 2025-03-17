@@ -66,11 +66,6 @@
             ResumeLayout(false);
             PerformLayout();
         }
-
-        private void BtnSalvar_Click(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
-        }
         #endregion
 
         private Button btnCancelar;

@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\base\\baseconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\base\\baseconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\forms\\cadastro\\episetorcadastroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\forms\\cadastro\\episetorcadastroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\consulta\\epiconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\consulta\\epiconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\forms\\cadastro\\epicadastroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\forms\\cadastro\\epicadastroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\forms\\cadastro\\episetorcadastroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\forms\\cadastro\\episetorcadastroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\infra\\configuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\infra\\configuredi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\cadastro\\epicadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\cadastro\\epicadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\base\\basecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\base\\basecadastro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFD0EE89-7C37-4E00-8EA1-2E7FA2F4A2B1}|EpiApp.Services\\EpiApp.Services.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.services\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFD0EE89-7C37-4E00-8EA1-2E7FA2F4A2B1}|EpiApp.Services\\EpiApp.Services.csproj|solutionrelative:epiapp.services\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C89AA18-BA78-4EE7-BF98-9E2B897177B4}|EpiApp.Repository\\EpiApp.Repository.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.repository\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C89AA18-BA78-4EE7-BF98-9E2B897177B4}|EpiApp.Repository\\EpiApp.Repository.csproj|solutionrelative:epiapp.repository\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\base\\baseconsultaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\base\\baseconsultaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\base\\basecadastroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\base\\basecadastroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|e:\\cursos\\projetos\\epiapplayers\\epiapp.app\\forms\\cadastro\\funcionariosetorcadastroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A386FA4-0B02-40F1-9CFC-93BDC6C6413B}|EpiApp.App\\EpiApp.App.csproj|solutionrelative:epiapp.app\\forms\\cadastro\\funcionariosetorcadastroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,75 +25,64 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 169,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 204,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BaseConsultaForm.cs",
-              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseConsultaForm.cs",
-              "RelativeDocumentMoniker": "EpiApp.App\\Base\\BaseConsultaForm.cs",
-              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseConsultaForm.cs",
-              "RelativeToolTip": "EpiApp.App\\Base\\BaseConsultaForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T18:52:17.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BaseCadastroForm.cs",
-              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseCadastroForm.cs",
-              "RelativeDocumentMoniker": "EpiApp.App\\Base\\BaseCadastroForm.cs",
-              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseCadastroForm.cs",
-              "RelativeToolTip": "EpiApp.App\\Base\\BaseCadastroForm.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T16:42:58.075Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BaseConsulta.cs",
-              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseConsulta.cs",
-              "RelativeDocumentMoniker": "EpiApp.App\\Base\\BaseConsulta.cs",
-              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseConsulta.cs",
-              "RelativeToolTip": "EpiApp.App\\Base\\BaseConsulta.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowDIAAAAoAAAAAAAAAA==",
+              "Title": "EpiSetorCadastroForm.cs",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Forms\\Cadastro\\EpiSetorCadastroForm.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Forms\\Cadastro\\EpiSetorCadastroForm.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Forms\\Cadastro\\EpiSetorCadastroForm.cs*",
+              "RelativeToolTip": "EpiApp.App\\Forms\\Cadastro\\EpiSetorCadastroForm.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T11:15:37.964Z",
+              "WhenOpened": "2025-03-17T16:15:21.861Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EpiCadastro.cs",
-              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\EpiCadastro.cs",
-              "RelativeDocumentMoniker": "EpiApp.App\\Cadastro\\EpiCadastro.cs",
-              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Cadastro\\EpiCadastro.cs",
-              "RelativeToolTip": "EpiApp.App\\Cadastro\\EpiCadastro.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowAgAAABBAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EpiCadastroForm.cs",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Forms\\Cadastro\\EpiCadastroForm.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Forms\\Cadastro\\EpiCadastroForm.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Forms\\Cadastro\\EpiCadastroForm.cs",
+              "RelativeToolTip": "EpiApp.App\\Forms\\Cadastro\\EpiCadastroForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T16:18:12.226Z"
+              "WhenOpened": "2025-03-17T16:15:09.462Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseCadastro.cs",
-              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseCadastro.cs",
-              "RelativeDocumentMoniker": "EpiApp.App\\Base\\BaseCadastro.cs",
-              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Base\\BaseCadastro.cs",
-              "RelativeToolTip": "EpiApp.App\\Base\\BaseCadastro.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowAQAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EpiSetorCadastroForm.cs [Projeto]",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Forms\\Cadastro\\EpiSetorCadastroForm.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Forms\\Cadastro\\EpiSetorCadastroForm.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Forms\\Cadastro\\EpiSetorCadastroForm.cs [Projeto]*",
+              "RelativeToolTip": "EpiApp.App\\Forms\\Cadastro\\EpiSetorCadastroForm.cs [Projeto]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T16:18:04.307Z"
+              "WhenOpened": "2025-03-17T16:14:47.022Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FuncionarioSetorCadastroForm.cs [Projeto]",
+              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Forms\\Cadastro\\FuncionarioSetorCadastroForm.cs",
+              "RelativeDocumentMoniker": "EpiApp.App\\Forms\\Cadastro\\FuncionarioSetorCadastroForm.cs",
+              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Forms\\Cadastro\\FuncionarioSetorCadastroForm.cs [Projeto]",
+              "RelativeToolTip": "EpiApp.App\\Forms\\Cadastro\\FuncionarioSetorCadastroForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T16:14:19.293Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         },
         {
-          "DockedWidth": 185,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 192,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,67 +91,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.Services\\Services\\BaseService.cs",
-              "RelativeDocumentMoniker": "EpiApp.Services\\Services\\BaseService.cs",
-              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.Services\\Services\\BaseService.cs",
-              "RelativeToolTip": "EpiApp.Services\\Services\\BaseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T18:54:02.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.Repository\\Repository\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "EpiApp.Repository\\Repository\\BaseRepository.cs",
-              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.Repository\\Repository\\BaseRepository.cs",
-              "RelativeToolTip": "EpiApp.Repository\\Repository\\BaseRepository.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T18:53:43.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EpiConsulta.cs",
-              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Consulta\\EpiConsulta.cs",
-              "RelativeDocumentMoniker": "EpiApp.App\\Consulta\\EpiConsulta.cs",
-              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Consulta\\EpiConsulta.cs",
-              "RelativeToolTip": "EpiApp.App\\Consulta\\EpiConsulta.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T11:36:26.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConfigureDI.cs",
-              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Infra\\ConfigureDI.cs",
-              "RelativeDocumentMoniker": "EpiApp.App\\Infra\\ConfigureDI.cs",
-              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\Infra\\ConfigureDI.cs",
-              "RelativeToolTip": "EpiApp.App\\Infra\\ConfigureDI.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAgwEQAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T16:33:46.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "EpiApp.App\\FormPrincipal.cs",
-              "ToolTip": "E:\\Cursos\\PROJETOS\\EpiAppLayers\\EpiApp.App\\FormPrincipal.cs",
-              "RelativeToolTip": "EpiApp.App\\FormPrincipal.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T17:33:53.756Z"
             }
           ]
         }

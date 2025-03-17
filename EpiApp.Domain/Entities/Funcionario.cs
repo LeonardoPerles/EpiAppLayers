@@ -65,6 +65,8 @@ namespace EpiApp.Domain.Entities
         public virtual Funcionario? Funcionario { get; set; }
         public int EpiId { get; set; }
         public virtual Epi? Epi { get; set; }
+
+
         // Data Entrega
         // public dateTime
         // Data Devolução

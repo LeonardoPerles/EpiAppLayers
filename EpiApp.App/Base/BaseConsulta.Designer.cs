@@ -1,6 +1,6 @@
 ﻿namespace EpiApp.App.Base
 {
-    partial class BaseConsulta<TEntity, TModel, TValidator>
+    partial class BaseConsulta<TEntity, TModel, TValidator, TCadastro>
     {
         /// <summary>
         /// Required designer variable.

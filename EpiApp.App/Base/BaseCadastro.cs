@@ -1,4 +1,7 @@
-﻿using EpiApp.Domain.Base;
+﻿using EpiApp.App.Models;
+using EpiApp.Domain.Base;
+using EpiApp.Domain.Entities;
+using EpiApp.Services.Validators;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
@@ -11,7 +14,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace EpiApp.App.Base
-{
+{        
     public partial class BaseCadastro<TEntity, TModel, TValidator> : BaseCadastroForm
         where TEntity : IBaseEntity
         where TModel : class
@@ -24,8 +27,7 @@ namespace EpiApp.App.Base
         }
         public BaseCadastro()
         {
-            InitializeComponent();
-            LimpaCampos();
+            InitializeComponent();            
         }
         #endregion
 
@@ -42,9 +44,9 @@ namespace EpiApp.App.Base
 
         }
 
-        public virtual void CarregaCampos(DataGridViewRow? linha)
+        protected virtual void CarregaCampos(TModel model)
         {
-            
+
         }
         #endregion
     }

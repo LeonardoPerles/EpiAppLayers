@@ -37,6 +37,36 @@
     <Compile Update="FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormsDesing\Cadastro\EpiCadastroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsDesing\Cadastro\EpiSetorCadastroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsDesing\Cadastro\FuncionarioCadastroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsDesing\Cadastro\FuncionarioSetorCadastroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsDesing\Cadastro\SetorCadastroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsDesing\Consulta\EpiConsultaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsDesing\Consulta\EpiSetorConsultaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsDesing\Consulta\FuncionarioConsultaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsDesing\Consulta\FuncionarioSetorConsultaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormsDesing\Consulta\SetorConsultaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="FormPrincipal.resx">

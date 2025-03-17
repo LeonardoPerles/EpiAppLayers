@@ -42,9 +42,8 @@ namespace EpiApp.App.Base
         {
         }
 
-        protected virtual bool Editar()
-        {            
-            return false;
+        protected virtual void Editar()
+        {                        
         }
 
         protected virtual void Remover()

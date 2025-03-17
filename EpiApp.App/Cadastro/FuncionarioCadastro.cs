@@ -3,6 +3,7 @@ using EpiApp.App.Models;
 using EpiApp.Domain.Base;
 using EpiApp.Domain.Entities;
 using EpiApp.Services.Validators;
+using ReaLTaiizor.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,9 +29,23 @@ namespace EpiApp.App.Cadastro
             _funcionarioService = funcionarioService;
             InitializeComponent();
         }
+        public FuncionarioCadastro(IBaseService<Funcionario> funcionarioService, FuncionarioModel funcionarioModel) : base("Funcionario Cadastro")
+        {
+            _funcionarioService = funcionarioService;
+            InitializeComponent();
+            CarregaCampos(funcionarioModel);
+        }
         #endregion
 
-        #region Override
+        #region Metodos Sobrepostos
+        protected override void CarregaCampos(FuncionarioModel funcionarioModel)
+        {
+            materialTextBoxId.Text = funcionarioModel.Id.ToString();
+            materialTextBoxNome.Text = funcionarioModel.Nome;
+            materialTextBoxDocumento.Text = funcionarioModel.Documento;
+            poisonDateTimeDataNascimento.Value = (DateTime)funcionarioModel.DataNascimento;
+            checkBoxAtivo.Checked = funcionarioModel.Ativo;
+        }
         protected override void Salvar()
         {
             try

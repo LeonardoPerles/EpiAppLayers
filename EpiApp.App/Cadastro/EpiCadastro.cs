@@ -1,15 +1,18 @@
 ﻿using EpiApp.App.Base;
+using EpiApp.App.Infra;
 using EpiApp.App.Models;
 using EpiApp.Domain.Base;
 using EpiApp.Domain.Entities;
+using EpiApp.Services.Services;
 using EpiApp.Services.Validators;
+using ReaLTaiizor.Controls;
 
 namespace EpiApp.App.Cadastro
 {
     public partial class EpiCadastro : BaseCadastro<Epi, EpiModel, EpiValidator>
     {
         #region Dependências
-        private IBaseService<Epi> _epiService;
+        private IBaseService<Epi> _epiService;        
         #endregion
 
         #region Constructor
@@ -19,9 +22,26 @@ namespace EpiApp.App.Cadastro
             InitializeComponent();
             LimpaCampos();
         }
+
+        public EpiCadastro(IBaseService<Epi> epiService, EpiModel epiModel) : base("Epi Cadastro")
+        {
+            _epiService = epiService;            
+            InitializeComponent();            
+            CarregaCampos(epiModel);
+        }
         #endregion
 
+
         #region Metodos sobrepostos
+        protected override void CarregaCampos(EpiModel epiModel)
+        {
+            materialTextBoxId.Text = epiModel.Id.ToString();
+            materialTextBoxNome.Text = epiModel.Nome;
+            materialTextBoxPrazoTroca.Text = epiModel.PrazoTroca.ToString();
+            materialTextBoxCa.Text = epiModel.Ca;
+            poisonDateTimeValidadeCa.Value = (DateTime)epiModel.ValidadeCa!;            
+        }
+
         protected override void Salvar()
         {
             try
@@ -59,24 +79,7 @@ namespace EpiApp.App.Cadastro
             epi.PrazoTroca = Int32.Parse(materialTextBoxPrazoTroca.Text);
             epi.Ca = materialTextBoxCa.Text;
             epi.ValidadeCa = poisonDateTimeValidadeCa.Value;
-        }
-
-        public override void CarregaCampos(DataGridViewRow? linha)
-        {
-            if (linha != null)
-            {
-                materialTextBoxId.Text = "100";
-                materialTextBoxNome.Text = linha?.Cells["Nome"].Value!.ToString() ?? string.Empty;
-                materialTextBoxCa.Text = linha?.Cells["Ca"].Value!.ToString() ?? string.Empty;
-                poisonDateTimeValidadeCa.Text = linha?.Cells["ValidadeCa"].Value!.ToString() ?? string.Empty;
-                materialTextBoxPrazoTroca.Text = linha?.Cells["PrazoTroca"].Value!.ToString() ?? string.Empty;
-            }
-            else
-            {
-                // Aqui você pode exibir uma mensagem de erro, se necessário
-                MessageBox.Show("Linha não encontrada.");
-            }
-        }
+        }      
         #endregion
     }
 }

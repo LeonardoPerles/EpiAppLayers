@@ -22,6 +22,7 @@ namespace EpiApp.App.Infra
         public static void ConfigureServices()
         {            
             Services = new ServiceCollection();
+
             #region Banco de dados
             var strConfig = File.ReadAllText("Config/ConfigBanco.txt");
             Services.AddDbContext<MySqlServerContext>(options =>
@@ -65,6 +66,12 @@ namespace EpiApp.App.Infra
             Services.AddScoped<IBaseService<FuncionarioEpi>, BaseService<FuncionarioEpi>>();
             #endregion
 
+            #region ViewModel
+            Services.AddScoped<EpiModel, EpiModel>();
+            Services.AddScoped<FuncionarioModel, FuncionarioModel>();
+            Services.AddScoped<SetorModel, SetorModel>();
+            #endregion
+
             #region Forms
             Services.AddSingleton<FormPrincipal, FormPrincipal>();
             Services.AddTransient<SetorCadastro, SetorCadastro>();
@@ -73,6 +80,36 @@ namespace EpiApp.App.Infra
             Services.AddTransient<FuncionarioConsulta, FuncionarioConsulta>();
             Services.AddTransient<EpiCadastro, EpiCadastro>();
             Services.AddTransient<EpiConsulta, EpiConsulta>();
+
+            #region Funcs
+            Services.AddTransient<Func<EpiModel, EpiCadastro>>((serviceProvider) =>
+            {
+                // Recupera o IBaseService<Epi> da injeção
+                var service = serviceProvider.GetRequiredService<IBaseService<Epi>>();
+
+                // Retorna uma função que cria o EpiEdita com o modelo
+                return (model) => new EpiCadastro(service, model);
+            });
+
+            Services.AddTransient<Func<FuncionarioModel, FuncionarioCadastro>>((serviceProvider) =>
+            {
+                // Recupera o IBaseService<Epi> da injeção
+                var service = serviceProvider.GetRequiredService<IBaseService<Funcionario>>();
+
+                // Retorna uma função que cria o EpiEdita com o modelo
+                return (model) => new FuncionarioCadastro(service, model);
+            });
+
+            Services.AddTransient<Func<SetorModel, SetorCadastro>>((serviceProvider) =>
+            {
+                // Recupera o IBaseService<Epi> da injeção
+                var service = serviceProvider.GetRequiredService<IBaseService<Setor>>();
+
+                // Retorna uma função que cria o EpiEdita com o modelo
+                return (model) => new SetorCadastro(service, model);
+            });
+            #endregion
+
             #endregion
 
             ServicesProvider = Services.BuildServiceProvider();
